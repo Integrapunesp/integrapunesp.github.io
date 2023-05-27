@@ -1,0 +1,308 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    width: 100%;
+    height: 50px;
+    padding-top: 0px;
+}
+
+div.logotipo{
+    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    height: 325px;
+    position: relative;
+}
+
+div.logotipo::before{
+    content: "";
+    background-image: url(Logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+div.texto{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main div.sobre{
+    position: relative;
+    width: 82.5%;
+    left: 8%;
+    background-color: #eee;
+    box-shadow: -5px 5px 5px #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main div.datas{
+    position: relative;
+    width: 82.5%;
+    left: 8%;
+    top: 20px;
+    background-color: #eee;
+    box-shadow: -5px 5px 5px #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main div.oficina2{
+    position: relative;
+    width: 82.5%;
+    left: 8%;
+    top: 40px;
+    background-color: #eee;
+    box-shadow: -5px 5px 5px #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer{
+    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    color: white;
+    text-align: center;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+footer div.direitos{
+    background-color: white;
+    color: #148EFF;
+    position: relative;
+    top: 16px;
+}
+
+footer div.topo p{
+    font-weight: bold;
+}
+
+ul.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.socials li{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+footer p.Copyright{
+    line-height: 50px;
+}
+
+nav{
+    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    margin: 0;
+    height: 50px;
+    position: sticky;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    width: 16.666%;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 17px 0px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: white;
+    color: midnightblue;
+    cursor: pointer;
+}
+
+nav a.ativo{
+    background-color: white;
+    color: midnightblue;
+}
+
+nav a.inscrição{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+nav a.oficinas{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+ul{list-style-type: none;}
+
+div.mês{
+    position: relative;
+    top: 80px;
+    padding: 50px 0px;
+    width: 83.8%;
+    background: #148EFF;
+    text-align: center;
+    color: white;
+    left: 8%;
+}
+
+.semana{
+    margin: 0;
+    padding: 10px 0px;
+    width: 83.8%;
+    background-color: #ddd;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 8%;
+}
+
+.semana li{
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    color: #333333;
+}
+
+.dias{
+    margin: 0;
+    padding: 10px 0px;
+    width: 83.8%;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 8%;
+}
+
+.dias li{
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    color:#333333;
+}
+
+.dias li .active{
+    background-color: #03E1D4;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+div.prazos{
+    text-align: center;
+}
+
+div.prazos h3{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding: 10px 80px;
+    color: #148EFF;
+    border-color: #148EFF;
+    border-style: solid;
+}
+
+div.prazos2{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.prazos2 div{
+    margin: 10px 10px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    background-size: contain;
+    box-shadow: -5px 5px 5px #333333;
+    border-radius: 10px;
+}
+
+ul.comissão li{
+    text-align: center;
+}
+
+img.atention{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer img{
+    display: inline-block;
+    align-items: center;
+}
+
+img.unesp{
+    width: 10%;
+}
+
+img.integrap{
+    width: 10%;
+}
+
+div.faq-oficinas{
+    border-color: #03E1D4;
+    border-style: solid;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+div.faq-oficinas h2{
+    text-align: center;
+    font-weight: bold;
+    color: #03E1D4;
+    text-decoration: underline;
+}
+
+div.faq-oficinas h4{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #148EFF;
+}
+
+div.faq-oficinas h3{
+    color: #03E1D4;
+    font-weight: bold;
+}
+
+
