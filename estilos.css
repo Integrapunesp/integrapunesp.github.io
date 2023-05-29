@@ -305,4 +305,18 @@ div.faq-oficinas h3{
     font-weight: bold;
 }
 
+div.comissão-título{
+    margin: auto;
+    border-color: #03E1D4;
+    border-style: solid;
+    width: 90%;
+}
+
+div.comissão-título h2{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #03E1D4;
+    text-align: center;
+}
+
 
