@@ -133,7 +133,7 @@ nav{
 
 nav a{
     color: white;
-    width: 16.666%;
+    width: 14.285%;
     text-decoration: none;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -159,6 +159,11 @@ nav a.inscrição{
 }
 
 nav a.oficinas{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+nav a.submissão{
     color: midnightblue;
     font-weight: bold;
 }
@@ -321,4 +326,43 @@ div.comissão-título h2{
     text-align: center;
 }
 
+div.orientações-gerais{
+    margin: auto;
+    border-color: #03E1D4;
+    border-style: solid;
+    width: 90%;
+}
+
+div.orientações-gerais h2{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #03E1D4;
+    text-align: center;
+}
+
+div.orientações-gerais h4{
+    color: #148EFF;
+    font-weight: bold;
+}
+
+div.orientações-gerais a{
+    font-style: italic;
+    color: black;
+}
+
+ul.diretrizes-gerais{
+    line-height: 1.5;
+}
+
+ol.eixos li{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+div.orientações-gerais a.forms{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #03E1D4;
+    text-align: center;
+}
 
