@@ -407,15 +407,30 @@ div.linha::after{
 
 div.quadro{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-    padding: 40px 16px 0 16px;
+    padding-top: 20%;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.4em;
     background-image: linear-gradient(45deg, #03E1D4, #148EFF);
     color: white;
-    min-height: 40vh;
+    min-height: 122vh;
     margin: 0 0 20px 0;
     transition: 0.3s;
     border-radius: 20px;
+}
+
+p.duração{
+    color: midnightblue;
+    font-style: italic;
+    font-size: 1.4vw;
+}
+
+p.título{
+    color: midnightblue;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 div.quadro:hover{
