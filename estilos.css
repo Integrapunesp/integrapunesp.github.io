@@ -158,11 +158,6 @@ nav a.inscrição{
     font-weight: bold;
 }
 
-nav a.oficinas{
-    color: midnightblue;
-    font-weight: bold;
-}
-
 nav a.submissão{
     color: midnightblue;
     font-weight: bold;
@@ -378,12 +373,6 @@ th, td{
     border: 1px solid #148EFF;
 }
 
-caption{
-    color: #148EFF;
-    font-weight: bold;
-    text-align: left;
-}
-
 th{
     color: #148EFF;
 }
@@ -398,4 +387,70 @@ h2.programação{
 th.dia1{
     background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
     color: white;
+}
+
+div.coluna{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+div.linha{
+    margin: 0 0;
+}
+
+div.linha::after{
+    display: table;
+    clear: both;
+}
+
+div.quadro{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    padding: 40px 16px 0 16px;
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(45deg, #03E1D4, #148EFF);
+    color: white;
+    min-height: 40vh;
+    margin: 0 0 20px 0;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+div.quadro:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+}
+
+main.ofcn{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.ofcn{
+    color: #148EFF;
+    text-align: center;
+}
+
+div.Aviso{
+    background-color: #ffdddd;
+    border-left: 6px solid orangered;
+    width: 80%;
+    margin: 25px;
+    height: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    font-size: large;
+}
+
+div.Certificados{
+    background-color: #ffffdd;
+    border-left: 6px solid yellow;
+    width: 80%;
+    margin: 25px;
+    height: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    font-size: large;
 }
