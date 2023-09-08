@@ -219,41 +219,6 @@ div.mês{
     border-radius: 50%;
 }
 
-div.prazos{
-    text-align: center;
-}
-
-div.prazos h3{
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    padding: 10px 80px;
-    color: #148EFF;
-    border-color: #148EFF;
-    border-style: solid;
-}
-
-div.prazos2{
-    margin: auto;
-    width: 75%;
-    text-align: center;
-    position: relative;
-    top: 40px;
-}
-
-.prazos2 div{
-    margin: 10px 10px;
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
-    background-size: contain;
-    box-shadow: -5px 5px 5px #333333;
-    border-radius: 10px;
-}
-
 ul.comissão li{
     color: #148EFF;
     font-weight: bold;
@@ -461,4 +426,22 @@ div.Certificados{
     padding-bottom: 1px;
     padding-left: 5px;
     font-size: large;
+}
+
+div.mapa{
+    text-align: center;
+}
+
+div.mapa h3{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    padding: 10px 80px;
+    color: #148EFF;
+}
+
+div.mapa p{
+    font-weight: bold;
+    margin-top: 25px;
 }
