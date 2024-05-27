@@ -1,33 +1,37 @@
-header{
+main{
+    min-height: 500px;
+}
+
+/*header{
     text-align: center;
     background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
     width: 100%;
     height: 50px;
     padding-top: 0px;
-}
+}*/
 
 div.logotipo{
-    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    /*background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4) - antigas cores do topo*/
     height: 325px;
     position: relative;
 }
 
 div.logotipo::before{
     content: "";
-    background-image: url(Logo.png);
+    background-image: url(SITE-01.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 div.texto{
-    color: white;
+    color: black; /*laranja do evento 2024: #E09100*/
     margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,7 +85,7 @@ main div.oficina2{
 }
 
 footer{
-    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    background-color: #285EA1;
     color: white;
     text-align: center;
     height: auto;
@@ -97,7 +101,7 @@ footer{
 
 footer div.direitos{
     background-color: white;
-    color: #148EFF;
+    color: #E09100;
     position: relative;
     top: 16px;
 }
@@ -119,12 +123,16 @@ ul.socials{
     font-size: 30px;
 }
 
+.socials li a{
+    color: white;
+}
+
 footer p.Copyright{
     line-height: 50px;
 }
 
 nav{
-    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    background-color: #285EA1; /*Branco ou azul do evento:#285EA1*/
     margin: 0;
     height: 50px;
     position: sticky;
@@ -143,18 +151,18 @@ nav a{
 }
 
 nav a:hover{
-    background-color: white;
-    color: midnightblue;
+    background-color: #E09100;
+    color: white;
     cursor: pointer;
 }
 
 nav a.ativo{
-    background-color: white;
-    color: midnightblue;
+    background-color: #ADD3FF;
+    color: #285EA1;
 }
 
 nav a.inscrição{
-    color: midnightblue;
+    color: #F1F1E6;
     font-weight: bold;
 }
 
@@ -165,7 +173,7 @@ div.mês{
     top: 80px;
     padding: 50px 0px;
     width: 83.8%;
-    background: #148EFF;
+    background: #E09100;
     text-align: center;
     color: white;
     left: 8%;
@@ -208,14 +216,14 @@ div.mês{
 }
 
 .dias li .active{
-    background-color: #03E1D4;
-    color: white;
+    background-color: #F0DB30;
+    color: black;
     padding: 5px;
     border-radius: 50%;
 }
 
 ul.comissão li{
-    color: #148EFF;
+    color: black;
     font-weight: bold;
     text-align: center;
 }
@@ -242,7 +250,7 @@ img.integrap{
 }
 
 div.faq-oficinas{
-    border-color: #03E1D4;
+    border-color: #285EA1;
     border-style: solid;
     margin: auto;
     width: 90%;
@@ -252,24 +260,24 @@ div.faq-oficinas{
 div.faq-oficinas h2{
     text-align: center;
     font-weight: bold;
-    color: #03E1D4;
+    color: #E09100;
     text-decoration: underline;
 }
 
 div.faq-oficinas h4{
     text-decoration: underline;
     font-weight: bold;
-    color: #148EFF;
+    color: #285EA1;
 }
 
 div.faq-oficinas h3{
-    color: #03E1D4;
+    color: #E09100;
     font-weight: bold;
 }
 
 div.comissão-título{
     margin: auto;
-    border-color: #03E1D4;
+    border-color: #285EA1;
     border-style: solid;
     width: 90%;
 }
@@ -277,7 +285,7 @@ div.comissão-título{
 div.comissão-título h2{
     text-decoration: underline;
     font-weight: bold;
-    color: #03E1D4;
+    color: #E09100;
     text-align: center;
 }
 
@@ -330,17 +338,17 @@ table{
 }
 
 th, td{
-    border: 1px solid #148EFF;
+    border: 1px solid #285EA1;
 }
 
 th{
-    color: #148EFF;
+    color: #E09100;
 }
 
 h2.programação{
     position: relative;
     text-align: center;
-    color: #148EFF;
+    color: #E09100;
     font-weight: bold;
 }
 
@@ -363,7 +371,7 @@ p.local{
 }
 
 th.dia1{
-    background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4);
+    background-color: #E09100;
     color: white;
 }
 
@@ -413,7 +421,12 @@ main.ofcn{
 }
 
 h2.ofcn{
-    color: #148EFF;
+    color: #285EA1;
+    text-align: center;
+}
+
+h1.ofcn{
+    color:#E09100;
     text-align: center;
 }
 
@@ -449,9 +462,14 @@ div.mapa h3{
     text-align: center;
     top: 50px;
     padding: 10px 80px;
-    color: #148EFF;
+    color: #285EA1;
 }
 
 div.mapa p{
     margin-top: 25px;
+}
+
+p.provisória{
+    text-align: center;
+    color: #E09100;
 }
