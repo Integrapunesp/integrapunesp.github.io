@@ -30,6 +30,12 @@ div.logotipo::before{
     opacity: 1;
 }
 
+div.logotipo1{
+    /*background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4) - antigas cores do topo*/
+    height: 325px;
+    position: relative;
+}
+
 div.logotipo1::before{
     content: "";
     background-image: url(Fundo - INTEGRAP 2026.png);
