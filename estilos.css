@@ -30,6 +30,20 @@ div.logotipo::before{
     opacity: 1;
 }
 
+div.logotipo1::before{
+    content: "";
+    background-image: url(Fundo - INTEGRAP 2026.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
 div.texto{
     color: black; /*laranja do evento 2024: #E09100*/
     margin: 0;
