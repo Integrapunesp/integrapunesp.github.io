@@ -210,44 +210,42 @@ nav a.ativo{
 
 ul{list-style-type: none;}
 
-/*==========================
-        CALENDÁRIOS
-==========================*/
+/* ================= CALENDÁRIOS ================= */
 
 .area-calendario{
-    width:90%;
-    max-width:1100px;
-    margin:80px auto;
+    width:82.5%;
+    margin:70px auto 40px auto;
+
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:flex-start;
-    gap:20px;
+    gap:18px;
 }
 
-/* Grade dos meses */
-
+/* quatro meses */
 .calendarios{
     display:grid;
-    grid-template-columns:repeat(2, 330px);
-    gap:30px;
+    grid-template-columns:repeat(2,350px);
+    column-gap:25px;
+    row-gap:30px;
 }
 
-/* Cada calendário */
-
+/* cada calendário */
 .calendario{
-    width:330px;
-    box-shadow:-4px 4px 8px rgba(0,0,0,.2);
+    width:350px;
+    box-shadow:-4px 4px 10px rgba(0,0,0,.18);
     border-radius:10px;
     overflow:hidden;
+    background:white;
 }
 
-/* Cabeçalho */
-
+/* cabeçalho */
 .calendario .mês{
+    width:100%;
     background:#E09100;
     color:white;
     text-align:center;
-    padding:12px;
+    padding:12px 0;
 }
 
 .calendario .mês h1{
@@ -255,137 +253,105 @@ ul{list-style-type: none;}
     font-size:28px;
 }
 
-/* Dias da semana */
+/* semana */
 
-.calendario .semana{
-    display:grid;
-    grid-template-columns:repeat(7,1fr);
-    list-style:none;
-    margin:0;
-    padding:0;
-    background:#d9d9d9;
-}
-
-.calendario .semana li{
-    text-align:center;
-    padding:8px 0;
-    font-weight:bold;
-}
-
-/* Dias */
-
+.calendario .semana,
 .calendario .dias{
     display:grid;
     grid-template-columns:repeat(7,1fr);
     list-style:none;
-    margin:0;
     padding:0;
-    background:#f5f5f5;
+    margin:0;
+    text-align:center;
+}
+
+.calendario .semana{
+    background:#ddd;
+    font-weight:bold;
+}
+
+.calendario .semana li{
+    padding:9px 0;
+}
+
+.calendario .dias{
+    background:#f6f6f6;
 }
 
 .calendario .dias li{
-    height:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    padding:10px 0;
 }
 
-/*==========================
-      CORES DAS DATAS
-==========================*/
+/* círculos */
 
-.submissao,
-.inscricao,
-.dia1,
-.dia2,
-.dia3{
-
-    width:32px;
-    height:32px;
-
-    display:flex;
+.calendario .dias span{
+    display:inline-flex;
     justify-content:center;
     align-items:center;
-
+    width:32px;
+    height:32px;
     border-radius:50%;
     color:white;
     font-weight:bold;
 }
 
-/* Prazo submissão */
+/* cores */
 
 .submissao{
     background:#E74C3C;
 }
 
-/* Prazo inscrição */
+.resultado{
+    background:#C0392B;
+}
 
 .inscricao{
     background:#3498DB;
 }
 
-/* Evento */
-
-.dia1{
-    background:#27AE60;
+.abertura{
+    background:#2ECC71;
 }
 
-.dia2{
+.mesa1{
     background:#F39C12;
 }
 
-.dia3{
-    background:#8E44AD;
+.encerramento{
+    background:#9B59B6;
 }
 
-/*==========================
-         LEGENDA
-==========================*/
+/* legenda */
 
 .legenda{
-
-    width:280px;
-
-    background:#eeeeee;
-
+    width:260px;
+    background:#eee;
     padding:20px;
-
     border-radius:10px;
+    box-shadow:-4px 4px 10px rgba(0,0,0,.18);
 
-    box-shadow:-5px 5px 5px #333;
-
+    margin-top:390px;
 }
 
 .legenda h3{
-
-    margin-top:0;
-
-    color:#285EA1;
-
     text-align:center;
-
+    color:#285EA1;
+    margin-top:0;
 }
 
-.item-legenda{
-
+.legenda p{
     display:flex;
-
-    align-items:center;
-
-    margin:18px 0;
-
+    align-items:flex-start;
+    gap:10px;
+    margin:12px 0;
+    line-height:1.4;
 }
 
 .cor{
-
     width:18px;
-
     height:18px;
-
     border-radius:50%;
-
-    margin-right:12px;
-
+    flex-shrink:0;
 }
 
 ul.comissão li{
