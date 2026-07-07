@@ -211,18 +211,19 @@ nav a.ativo{
 ul{list-style-type: none;}
 
 .area-calendario{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    margin-top:60px;
-    align-items:flex-start;
+    width: 82.5%;
+    margin: 100px auto 40px auto; /* espaço acima e centralização */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 
 .calendarios{
-    display:grid;
-    grid-template-columns:repeat(2, 350px);
-    gap:30px;
+    display: grid;
+    grid-template-columns: 350px;
+    gap: 30px;
 }
 
 
