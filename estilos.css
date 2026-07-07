@@ -213,72 +213,74 @@ ul{list-style-type: none;}
 .calendarios{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 40px;
+    margin-top: 40px;
     flex-wrap: wrap;
 }
 
 .calendario{
-    width: 520px;
+    width: 350px;
 }
 
 
-
-div.mês{
-    position: relative;
-    top: 80px;
-    padding: 50px 0px;
-    width: 83.8%;
-    background: #E09100;
-    text-align: center;
-    color: white;
-    left: 8%;
-}
-
-.semana{
-    margin: 0;
-    padding: 10px 0px;
-    width: 83.8%;
-    background-color: #ddd;
-    text-align: center;
-    position: relative;
-    top: 40px;
-    left: 8%;
-}
-
-.semana li{
-    display: inline-block;
-    width: 12%;
-    text-align: center;
-    color: #333333;
-}
-
-.dias{
-    margin: 0;
-    padding: 10px 0px;
-    width: 83.8%;
-    background-color: #eee;
-    text-align: center;
-    position: relative;
-    top: 40px;
-    left: 8%;
-}
-
-.dias li{
-    display: inline-block;
-    width: 12%;
-    text-align: center;
-    color:#333333;
-}
-
-.dias li .active{
+/* Cabeçalho do mês */
+.calendario .mês{
     background-color: #E09100;
     color: white;
-    padding: 6px 10px;
-    border-radius: 50%;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+}
+
+.calendario .mês h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+
+/* Dias da semana */
+.calendario .semana,
+.calendario .dias{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+/* Semana */
+.calendario .semana{
+    background-color: #ddd;
+}
+
+.calendario .semana li{
+    padding: 8px 0;
     font-weight: bold;
 }
 
+
+/* Números */
+.calendario .dias{
+    background-color: #eee;
+}
+
+.calendario .dias li{
+    padding: 10px 0;
+}
+
+
+/* Datas do evento */
+.calendario .dias li .active{
+    background-color: #285EA1;
+    color: white;
+    border-radius: 50%;
+    padding: 6px 9px;
+    font-weight: bold;
+}
 ul.comissão li{
     color: black;
     font-weight: bold;
