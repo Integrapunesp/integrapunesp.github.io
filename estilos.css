@@ -222,7 +222,7 @@ ul{list-style-type: none;}
 
 .calendarios{
     display:grid;
-    grid-template-columns:380px 380px;
+    grid-template-columns:420px 420px;
     gap:40px;
 }
 
