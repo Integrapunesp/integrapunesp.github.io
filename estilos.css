@@ -212,7 +212,7 @@ ul{list-style-type: none;}
 
 .area-calendario{
     width:82.5%;
-    margin:100px auto 40px auto;
+    margin:60px auto 40px auto;
     display:flex;
     justify-content:center;
     align-items:flex-start;
@@ -229,7 +229,7 @@ ul{list-style-type: none;}
 
 /* quadro da legenda */
 .legenda{
-    width:280px;
+    width:250px;
     background-color:#eee;
     padding:20px;
     border-radius:10px;
