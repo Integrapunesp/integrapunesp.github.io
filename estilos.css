@@ -201,10 +201,8 @@ nav a.faq{
 
 nav a:hover{
     filter: brightness(120%);
-    transition: 0.3s;
+    cursor: pointer;
 }
-
-
 
 ul{list-style-type: none;}
 
