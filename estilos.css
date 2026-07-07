@@ -200,9 +200,8 @@ nav a.faq{
 }
 
 nav a:hover{
-    background-color: #E09100;
-    color: white;
-    cursor: pointer;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 
