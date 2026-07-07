@@ -216,15 +216,14 @@ ul{list-style-type: none;}
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    gap:40px;
+    gap:50px;
 }
 
 
-/* bloco dos quatro meses */
 .calendarios{
     display:grid;
-    grid-template-columns:300px 300px;
-    gap:30px;
+    grid-template-columns:380px 380px;
+    gap:40px;
 }
 
 
