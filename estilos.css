@@ -210,12 +210,43 @@ nav a.ativo{
 
 ul{list-style-type: none;}
 
+.area-calendario{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:60px;
+    align-items:flex-start;
+}
+
+
 .calendarios{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 80px;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns:repeat(2, 350px);
+    gap:30px;
+}
+
+
+.legenda{
+    width:280px;
+    background-color:#eee;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px #999;
+}
+
+
+.legenda h3{
+    color:#285EA1;
+    text-align:center;
+}
+
+
+.cor{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    margin-right:8px;
 }
 
 .calendario{
