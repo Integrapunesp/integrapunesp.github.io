@@ -167,26 +167,45 @@ nav a{
     text-align: center;
 }
 
+nav a.ativo{
+    background-color: #D95D6A;   /* vermelho */
+}
+
+nav a.inscrição{
+    background-color: #E98B3A;   /* laranja */
+}
+
+nav a.submissão{
+    background-color: #E0B83E;   /* amarelo */
+}
+
+nav a.oficinas{
+    background-color: #4FAF83;   /* verde */
+}
+
+nav a.prog{
+    background-color: #285EA1;   /* azul */
+}
+
+nav a.anais{
+    background-color: #5964B2;   /* anil */
+}
+
+nav a.equipe{
+    background-color: #8B5FBF;   /* violeta */
+}
+
+nav a.faq{
+    background-color: #C45AA5;   /* rosa/roxo */
+}
+
 nav a:hover{
     background-color: #E09100;
     color: white;
     cursor: pointer;
 }
 
-nav a.ativo{
-    background-color: #ADD3FF;
-    color: #285EA1;
-}
 
-nav a.inscrição{
-    color: #F1F1E6;
-    font-weight: bold;
-}
-
-nav a.submissão{
-    color: #F1F1E6;
-    font-weight: bold;
-}
 
 ul{list-style-type: none;}
 
