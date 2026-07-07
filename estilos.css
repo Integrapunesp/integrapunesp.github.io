@@ -200,12 +200,12 @@ nav a.faq{
 }
 
 nav a:hover{
-    filter: brightness(120%);
+    filter: brightness(125%);
     cursor: pointer;
 }
 
 nav a.ativo{
-    filter: brightness(75%);
+    filter: brightness(65%);
 }
 
 ul{list-style-type: none;}
