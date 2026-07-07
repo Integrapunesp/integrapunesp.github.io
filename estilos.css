@@ -210,6 +210,17 @@ nav a.ativo{
 
 ul{list-style-type: none;}
 
+.tema-evento{
+    color: #E09100;
+    font-size: 1.8em;      /* aumenta bastante o texto */
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    font-style: normal;    /* remove o itálico padrão do blockquote */
+    margin: 30px auto;
+    width: 90%;
+}
+
 /* ================= CALENDÁRIOS ================= */
 
 .area-calendario{
