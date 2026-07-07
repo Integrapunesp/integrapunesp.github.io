@@ -211,28 +211,30 @@ nav a.ativo{
 ul{list-style-type: none;}
 
 .area-calendario{
-    width: 82.5%;
-    margin: 100px auto 40px auto; /* espaço acima e centralização */
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
+    width:82.5%;
+    margin:100px auto 40px auto;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
 }
 
 
+/* bloco dos quatro meses */
 .calendarios{
-    display: grid;
-    grid-template-columns: 350px;
-    gap: 30px;
+    display:grid;
+    grid-template-columns:300px 300px;
+    gap:30px;
 }
 
 
+/* quadro da legenda */
 .legenda{
     width:280px;
     background-color:#eee;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 4px 8px #999;
+    box-shadow:-5px 5px 5px #333333;
 }
 
 
