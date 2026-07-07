@@ -212,108 +212,90 @@ ul{list-style-type: none;}
 
 .area-calendario{
     width:82.5%;
-    margin:60px auto 40px auto;
+    margin:80px auto 40px auto;
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    gap:50px;
-}
-
-
-.calendarios{
-    display:grid;
-    grid-template-columns:420px 420px;
     gap:40px;
 }
 
 
-/* quadro da legenda */
-.legenda{
-    width:250px;
-    background-color:#eee;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:-5px 5px 5px #333333;
+/* Grade dos meses */
+.calendarios{
+    display:grid;
+    grid-template-columns:350px 350px;
+    gap:40px;
 }
 
 
-.legenda h3{
-    color:#285EA1;
-    text-align:center;
-}
-
-
-.cor{
-    display:inline-block;
-    width:15px;
-    height:15px;
-    border-radius:50%;
-    margin-right:8px;
-}
-
+/* Cada calendário */
 .calendario{
-    width: 350px;
+    width:350px;
 }
 
 
 /* Cabeçalho do mês */
 .calendario .mês{
-    background-color: #E09100;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    top: 0;
+    width:100%;
+    background-color:#E09100;
+    color:white;
+    text-align:center;
+    padding:10px 0;
+    position:relative;
+    top:0;
 }
 
+
+/* Nome do mês */
 .calendario .mês h1{
-    margin: 0;
-    font-size: 28px;
+    margin:0;
+    font-size:28px;
 }
 
 
-/* Dias da semana */
+/* Dias da semana e números */
 .calendario .semana,
 .calendario .dias{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(7, 1fr);
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
 }
 
 
-/* Semana */
 .calendario .semana{
-    background-color: #ddd;
+    background-color:#ddd;
 }
+
+
+.calendario .dias{
+    background-color:#eee;
+}
+
 
 .calendario .semana li{
-    padding: 8px 0;
-    font-weight: bold;
+    padding:8px 0;
+    font-weight:bold;
 }
 
-
-/* Números */
-.calendario .dias{
-    background-color: #eee;
-}
 
 .calendario .dias li{
-    padding: 10px 0;
+    padding:10px 0;
 }
 
 
-/* Datas do evento */
-.calendario .dias li .active{
-    background-color: #285EA1;
-    color: white;
-    border-radius: 50%;
-    padding: 6px 9px;
-    font-weight: bold;
+/* Datas destacadas */
+.calendario .active{
+    background-color:#285EA1;
+    color:white;
+    border-radius:50%;
+    padding:6px 9px;
+    font-weight:bold;
 }
+
 ul.comissão li{
     color: black;
     font-weight: bold;
