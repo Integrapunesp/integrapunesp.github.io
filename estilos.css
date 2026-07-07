@@ -14,6 +14,7 @@ div.logotipo{
     /*background-image: linear-gradient(to right, #03E1D4, #148EFF, #03E1D4) - antigas cores do topo*/
     height: 325px;
     position: relative;
+    top: -30px;
 }
 
 div.logotipo::before{
