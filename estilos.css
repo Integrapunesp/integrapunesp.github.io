@@ -210,6 +210,20 @@ nav a.ativo{
 
 ul{list-style-type: none;}
 
+.calendarios{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.calendario{
+    width: 520px;
+}
+
+
+
 div.mês{
     position: relative;
     top: 80px;
@@ -258,10 +272,11 @@ div.mês{
 }
 
 .dias li .active{
-    background-color: #F0DB30;
-    color: black;
-    padding: 5px;
+    background-color: #E09100;
+    color: white;
+    padding: 6px 10px;
     border-radius: 50%;
+    font-weight: bold;
 }
 
 ul.comissão li{
