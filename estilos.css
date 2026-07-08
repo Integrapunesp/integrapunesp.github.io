@@ -694,3 +694,35 @@ p.provisória{
 .oficinas-antigas{
     display:none;
 }
+
+/* ===========================
+   FAQ 2026
+=========================== */
+
+.faq-aviso{
+    width:82%;
+    margin:50px auto;
+    padding:35px;
+    background:#FDF6EC;
+    border-left:8px solid #E09100;
+    border-radius:12px;
+    box-shadow:-5px 5px 8px rgba(0,0,0,.25);
+    text-align:center;
+}
+
+.faq-aviso h2{
+    color:#E09100;
+    font-size:34px;
+    margin-top:0;
+    margin-bottom:20px;
+}
+
+.faq-aviso p{
+    font-size:20px;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+.faq-antigo{
+    display:none;
+}
