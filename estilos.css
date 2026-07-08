@@ -418,20 +418,33 @@ div.faq-oficinas h3{
     font-weight: bold;
 }
 
-div.comissão-título{
-    margin: auto;
-    border: 2px solid #6FA8DC;   /* azul mais claro */
+.comissão-título{
     width: 90%;
-    border-radius: 10px;
-    padding: 10px;
+    margin: auto;
+    padding: 40px 0;
 }
 
-div.comissão-título h2{
-    font-weight: bold;
-    color: #6FA8DC;              /* mesmo azul da borda */
-    text-align: center;
-    text-decoration: none;       /* remove o sublinhado */
-    margin: 10px 0;
+.comissao{
+    background: #f5f5f5;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.comissao h3{
+    color: #5b1d74;
+    margin-bottom: 15px;
+}
+
+.comissao ul{
+    columns: 2;
+    column-gap: 40px;
+    padding-left: 20px;
+}
+
+.comissao li{
+    margin-bottom: 8px;
 }
 
 div.orientações-gerais{
