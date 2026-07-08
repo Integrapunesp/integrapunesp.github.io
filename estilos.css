@@ -420,16 +420,18 @@ div.faq-oficinas h3{
 
 div.comissão-título{
     margin: auto;
-    border-color: #285EA1;
-    border-style: solid;
+    border: 2px solid #6FA8DC;   /* azul mais claro */
     width: 90%;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 div.comissão-título h2{
-    text-decoration: underline;
     font-weight: bold;
-    color: #E09100;
+    color: #6FA8DC;              /* mesmo azul da borda */
     text-align: center;
+    text-decoration: none;       /* remove o sublinhado */
+    margin: 10px 0;
 }
 
 div.orientações-gerais{
