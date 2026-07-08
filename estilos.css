@@ -424,12 +424,30 @@ div.faq-oficinas h3{
     padding: 40px 0;
 }
 
-.comissao{
-    background: #f5f5f5;
-    margin: 25px 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+.comissão{
+    width: 90%;
+    margin: 30px auto;
+    columns: 3;
+    column-gap: 50px;
+    list-style-position: inside;
+}
+
+.comissão li{
+    margin-bottom: 10px;
+    break-inside: avoid;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px){
+    .comissão{
+        columns: 2;
+    }
+}
+
+@media (max-width: 600px){
+    .comissão{
+        columns: 1;
+    }
 }
 
 .comissao h3{
@@ -441,10 +459,6 @@ div.faq-oficinas h3{
     columns: 2;
     column-gap: 40px;
     padding-left: 20px;
-}
-
-.comissao li{
-    margin-bottom: 8px;
 }
 
 div.orientações-gerais{
