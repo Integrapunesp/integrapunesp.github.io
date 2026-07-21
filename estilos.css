@@ -247,7 +247,7 @@ ul{list-style-type: none;}
     box-shadow:-4px 4px 10px rgba(0,0,0,.18);
     border-radius:10px;
     overflow:hidden;
-    background:white;
+    background:#f6f6f6;
 }
 
 /* cabeçalho */
@@ -290,7 +290,9 @@ ul{list-style-type: none;}
 }
 
 .calendario .dias li{
+    height:52px;
     padding:10px 0;
+    box-sizing:border-box;
 }
 
 /* círculos */
