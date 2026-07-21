@@ -230,7 +230,7 @@ ul{list-style-type: none;}
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    gap:18px;
+    gap:30px;
 }
 
 /* quatro meses */
@@ -357,7 +357,7 @@ background:#9B59B6;
 /* legenda */
 
 .legenda{
-    width:260px;
+    width:300px;
     background:#eee;
     padding:20px;
     border-radius:10px;
