@@ -351,8 +351,8 @@ background:#9B59B6;
 /* PRORROGAÇÕES */
 
 .prorrogacao{
-background:#E74C3C;
-display:none; /* Altere para inline-block para exibir */
+    background:#E74C3C;
+    display:none;
 }
 
 /* legenda */
