@@ -290,8 +290,8 @@ ul{list-style-type: none;}
 }
 
 .calendario .dias li{
-    height:52px;
-    padding:10px 0;
+    height:42px;
+    padding:5px 0;
     box-sizing:border-box;
 }
 
