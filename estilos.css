@@ -737,6 +737,261 @@ p.provisória{
     display:none;
 }
 
+/* =========================================================
+   PROGRAMAÇÃO 2026
+   ========================================================= */
+
+.programacao-2026{
+    width:82.5%;
+    margin:70px auto 60px auto;
+}
+
+/* ================= TÍTULO ================= */
+
+.programacao-titulo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.programacao-titulo h2{
+    color:#285EA1;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.programacao-titulo p{
+    max-width:900px;
+    margin:8px auto;
+    line-height:1.5;
+}
+
+/* ================= CARD DE CADA DIA ================= */
+
+.dia-programacao{
+    margin-bottom:40px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:-4px 4px 10px rgba(0,0,0,.18);
+    background:white;
+}
+
+/* ================= CABEÇALHO DOS DIAS ================= */
+
+.cabecalho-dia{
+    padding:20px 25px;
+    color:white;
+}
+
+.cabecalho-dia h2{
+    margin:0;
+    font-size:30px;
+}
+
+.cabecalho-dia span{
+    font-size:16px;
+}
+
+/* ================= CORES DOS DIAS ================= */
+
+.dia-30-09 .cabecalho-dia{
+    background:#C0392B;
+}
+
+.dia-01-10 .cabecalho-dia{
+    background:#27AE60;
+}
+
+.dia-02-10 .cabecalho-dia{
+    background:#3498DB;
+}
+
+/* ================= PERÍODOS ================= */
+
+.periodo{
+    padding:22px 25px 28px 25px;
+}
+
+/* ================= MANHÃ ================= */
+
+.periodo-manha{
+    background:#FDEDEC;
+}
+
+.dia-01-10 .periodo-manha{
+    background:#EAF7EF;
+}
+
+.dia-02-10 .periodo-manha{
+    background:#EBF5FB;
+}
+
+/* ================= TARDE ================= */
+
+.periodo-tarde{
+    background:#F5B7B1;
+}
+
+.dia-01-10 .periodo-tarde{
+    background:#A9DFBF;
+}
+
+.dia-02-10 .periodo-tarde{
+    background:#AED6F1;
+}
+
+/* ================= NOITE ================= */
+
+.periodo-noite{
+    background:#922B21;
+    color:white;
+}
+
+.dia-01-10 .periodo-noite{
+    background:#1E8449;
+}
+
+.dia-02-10 .periodo-noite{
+    background:#21618C;
+}
+
+/* ================= TÍTULO DO PERÍODO ================= */
+
+.titulo-periodo{
+    margin-bottom:15px;
+}
+
+.titulo-periodo h3{
+    margin:0;
+    font-size:23px;
+}
+
+/* ================= TABELA ================= */
+
+.tabela-programacao{
+    width:100%;
+    border-radius:8px;
+    overflow:hidden;
+    background:white;
+    color:#222;
+}
+
+/* ================= LINHAS ================= */
+
+.linha-programacao{
+    display:grid;
+    grid-template-columns:150px 1fr 220px;
+    gap:20px;
+    padding:18px 20px;
+    border-bottom:1px solid #ddd;
+    align-items:start;
+}
+
+/* Apresentação de trabalhos — apenas duas colunas */
+
+.tabela-apresentacoes .linha-programacao{
+    grid-template-columns:150px 1fr;
+}
+
+/* ================= CABEÇALHO DA TABELA ================= */
+
+.linha-cabecalho{
+    background:#f0f0f0;
+    font-weight:bold;
+}
+
+/* ================= ATIVIDADE PRINCIPAL ================= */
+
+.atividade-principal{
+    line-height:1.5;
+}
+
+.atividade-principal p{
+    margin:8px 0;
+}
+
+/* ================= COFFEE BREAK ================= */
+
+.pausa-atividade{
+    margin:15px 0;
+    padding:12px 15px;
+    border-left:4px solid #F39C12;
+    background:#FEF5E7;
+    color:#222;
+    border-radius:5px;
+}
+
+/* ================= OBSERVAÇÃO ================= */
+
+.observacao-horario{
+    margin-top:8px;
+    font-size:14px;
+    font-style:italic;
+}
+
+/* ================= PROGRAMAÇÃO AINDA NÃO DEFINIDA ================= */
+
+.programacao-vazia{
+    padding:20px;
+    background:rgba(255,255,255,.6);
+    border-radius:8px;
+    color:#555;
+}
+
+/* ================= RESPONSIVIDADE ================= */
+
+@media (max-width:900px){
+
+    .programacao-2026{
+        width:90%;
+    }
+
+    .linha-programacao{
+        grid-template-columns:120px 1fr 160px;
+        gap:12px;
+    }
+
+}
+
+@media (max-width:700px){
+
+    .programacao-2026{
+        width:94%;
+        margin-top:40px;
+    }
+
+    .cabecalho-dia{
+        padding:18px;
+    }
+
+    .periodo{
+        padding:18px 15px 22px 15px;
+    }
+
+    .linha-programacao,
+    .tabela-apresentacoes .linha-programacao{
+        display:block;
+        padding:15px;
+    }
+
+    .linha-programacao > div{
+        margin-bottom:10px;
+    }
+
+    .linha-cabecalho{
+        display:none;
+    }
+
+    .linha-programacao > div:first-child{
+        font-weight:bold;
+        color:#285EA1;
+    }
+
+    .periodo-noite .linha-programacao > div:first-child{
+        color:#285EA1;
+    }
+
+}
+
 /* ===========================
    FAQ 2026
 =========================== */
