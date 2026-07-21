@@ -231,7 +231,7 @@ ul{list-style-type: none;}
     justify-content:center;
     align-items:flex-start;
 
-    gap:45px;
+    gap:18px;
 }
 
 
@@ -370,18 +370,14 @@ ul{list-style-type: none;}
 }
 
 
-/* LEGENDA */
+/* legenda */
 
 .legenda{
-    box-sizing:border-box;
-    width:320px;
-
+    width:260px;
     background:#eee;
     padding:20px;
-
     border-radius:10px;
     box-shadow:-4px 4px 10px rgba(0,0,0,.18);
-
     margin-top:390px;
 }
 
