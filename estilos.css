@@ -231,9 +231,9 @@ ul{list-style-type: none;}
     justify-content:center;
     align-items:flex-start;
 
-    /* aumenta o espaço entre os calendários e a legenda */
     gap:45px;
 }
+
 
 /* quatro meses */
 
@@ -243,6 +243,7 @@ ul{list-style-type: none;}
     column-gap:25px;
     row-gap:30px;
 }
+
 
 /* cada calendário */
 
@@ -254,7 +255,9 @@ ul{list-style-type: none;}
     background:white;
 }
 
+
 /* cabeçalho */
+
 .calendario .mês{
     width:100%;
     background:#E6D7C3;
@@ -267,6 +270,7 @@ ul{list-style-type: none;}
     margin:0;
     font-size:28px;
 }
+
 
 /* semana */
 
@@ -297,6 +301,7 @@ ul{list-style-type: none;}
     padding:10px 0;
 }
 
+
 /* círculos */
 
 .calendario .dias span{
@@ -310,47 +315,53 @@ ul{list-style-type: none;}
     font-weight:bold;
 }
 
+
 /* SUBMISSÃO */
 
 .submissao{
-background:#E74C3C;
+    background:#E74C3C;
 }
+
 
 /* AVALIAÇÃO */
 
 .avaliacao{
-background:#5DADE2;
+    background:#5DADE2;
 }
+
 
 /* CORREÇÃO DOS TRABALHOS */
 
 .correcao{
-background:#C0392B;
+    background:#C0392B;
 }
+
 
 /* DIVULGAÇÃO FINAL / ENCAMINHAMENTO FINAL */
 
 .final{
-background:#27AE60;
+    background:#27AE60;
 }
+
 
 /* EVENTO */
 
 .inscricao{
-background:#3498DB;
+    background:#3498DB;
 }
 
 .abertura{
-background:#2ECC71;
+    background:#2ECC71;
 }
 
 .mesa1{
-background:#F39C12;
+    background:#F39C12;
 }
 
 .encerramento{
-background:#9B59B6;
+    background:#9B59B6;
 }
+
 
 /* PRORROGAÇÕES */
 
@@ -358,12 +369,16 @@ background:#9B59B6;
     display:none;
 }
 
-/* legenda */
+
+/* LEGENDA */
 
 .legenda{
-    width:300px;
+    box-sizing:border-box;
+    width:320px;
+
     background:#eee;
     padding:20px;
+
     border-radius:10px;
     box-shadow:-4px 4px 10px rgba(0,0,0,.18);
 
