@@ -306,15 +306,31 @@ ul{list-style-type: none;}
     font-weight:bold;
 }
 
-/* cores */
+/* SUBMISSÃO */
 
 .submissao{
     background:#E74C3C;
 }
 
-.resultado{
+/* AVALIAÇÃO */
+
+.avaliacao{
+    background:#5DADE2;
+}
+
+/* CORREÇÃO DOS TRABALHOS */
+
+.correcao{
     background:#C0392B;
 }
+
+/* DIVULGAÇÃO FINAL */
+
+.final{
+    background:#27AE60;
+}
+
+/* EVENTO */
 
 .inscricao{
     background:#3498DB;
