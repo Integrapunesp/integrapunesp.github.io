@@ -309,43 +309,50 @@ ul{list-style-type: none;}
 /* SUBMISSÃO */
 
 .submissao{
-    background:#E74C3C;
+background:#E74C3C;
 }
 
 /* AVALIAÇÃO */
 
 .avaliacao{
-    background:#5DADE2;
+background:#5DADE2;
 }
 
 /* CORREÇÃO DOS TRABALHOS */
 
 .correcao{
-    background:#C0392B;
+background:#C0392B;
 }
 
-/* DIVULGAÇÃO FINAL */
+/* DIVULGAÇÃO FINAL / ENCAMINHAMENTO FINAL */
 
 .final{
-    background:#27AE60;
+background:#27AE60;
 }
 
 /* EVENTO */
 
 .inscricao{
-    background:#3498DB;
+background:#3498DB;
 }
 
 .abertura{
-    background:#2ECC71;
+background:#2ECC71;
 }
 
 .mesa1{
-    background:#F39C12;
+background:#F39C12;
 }
 
 .encerramento{
-    background:#9B59B6;
+background:#9B59B6;
+}
+
+/* PRORROGAÇÕES */
+
+.prorrogacao{
+background:#E74C3C;
+display:none; /* Altere para inline-block para exibir */
 }
 
 /* legenda */
