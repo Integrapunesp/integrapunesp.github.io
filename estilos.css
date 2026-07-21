@@ -230,10 +230,13 @@ ul{list-style-type: none;}
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    gap:18px;
+
+    /* aumenta o espaço entre os calendários e a legenda */
+    gap:45px;
 }
 
 /* quatro meses */
+
 .calendarios{
     display:grid;
     grid-template-columns:repeat(2,350px);
@@ -242,6 +245,7 @@ ul{list-style-type: none;}
 }
 
 /* cada calendário */
+
 .calendario{
     width:350px;
     box-shadow:-4px 4px 10px rgba(0,0,0,.18);
@@ -357,7 +361,7 @@ background:#9B59B6;
 /* legenda */
 
 .legenda{
-    width:260px;
+    width:300px;
     background:#eee;
     padding:20px;
     border-radius:10px;
